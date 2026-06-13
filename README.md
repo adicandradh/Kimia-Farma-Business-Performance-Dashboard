@@ -16,8 +16,7 @@ Fokus utama dari project ini adalah mengolah data transaksi, produk, dan cabang 
 - Data integration dari beberapa tabel menggunakan Google BigQuery
 - Data cleaning untuk memastikan konsistensi dan kualitas data
 - Pembuatan calculated fields
-- Transformasi data menggunakan SQL
-- Agregasi data untuk kebutuhan visualisasi dashboard
+- Agregasi dan transformasi data menggunakan SQL
 ## 🧠 Business Logic
 - Net Sales dihitung dari harga setelah dikurangi diskon (`actual_price × (1 - discount_percentage)`)
 - Net Profit dihitung dari hasil perkalian `Net Sales × Gross Profit Percentage`
@@ -39,9 +38,8 @@ https://datastudio.google.com/reporting/d9ebdcb6-f087-4888-bd14-1a0716777eed
 
 ## 📊 Dashboard Highlights
 - Kimia Farma menghasilkan Net Sales sebesar Rp321,18 miliar dan Net Profit sebesar Rp91,21 miliar dari 672,46 ribu transaksi selama periode 2020–2023. Nilai Average Order Value (AOV) tercatat sebesar Rp477,61 ribu, dengan rata-rata Transaction Rating 4,00 dan Branch Rating 4,45.
-- Tren Net Sales dan Net Profit menunjukkan pola yang relatif stabil sepanjang periode analisis. Rata-rata Net Sales bulanan berada pada kisaran Rp6–7 miliar, sedangkan Net Profit bulanan berada pada kisaran Rp1,7–2,0 miliar, mengindikasikan performa bisnis yang konsisten.
+- Tren Net Sales dan Net Profit menunjukkan pola yang relatif stabil sepanjang periode analisis dengan pergerakan yang cenderung searah. Fluktuasi pada Net Profit mengikuti perubahan Net Sales, mengindikasikan bahwa pertumbuhan penjualan berkontribusi langsung terhadap peningkatan profit perusahaan.
 - Jawa Barat menjadi provinsi dengan kontribusi terbesar terhadap kinerja perusahaan, mencatat Net Sales sebesar Rp94,87 miliar, Net Profit sebesar Rp26,94 miliar, dan 198,72 ribu transaksi, menjadikannya wilayah dengan performa terbaik selama periode analisis.
 - Distribusi transaksi berdasarkan jenis cabang relatif seimbang, dengan masing-masing kategori cabang menyumbang sekitar 33% dari total transaksi. Hal ini menunjukkan bahwa aktivitas bisnis tidak bergantung pada satu tipe cabang tertentu.
 - Visualisasi geografis memperlihatkan bahwa distribusi Net Profit tersebar di seluruh Indonesia, namun didominasi oleh beberapa provinsi dengan aktivitas bisnis tinggi, terutama Jawa Barat, yang menjadi kontributor profit terbesar.
-- Analisis terhadap cabang dengan Branch Rating tinggi namun Transaction Rating relatif rendah menunjukkan adanya beberapa cabang dengan Branch Rating mencapai 4,83, sementara Transaction Rating berada di kisaran 3,99–4,03. Temuan ini mengindikasikan adanya peluang peningkatan kualitas layanan pada proses transaksi.
-- Dashboard dilengkapi dengan filter interaktif berdasarkan Year, Month, Province, dan City, sehingga pengguna dapat melakukan eksplorasi data secara fleksibel sesuai kebutuhan analisis.
+- Analisis terhadap cabang dengan Branch Rating tinggi namun Transaction Rating rendah menunjukkan adanya beberapa cabang yang memiliki kualitas cabang yang baik, tetapi belum diikuti oleh pengalaman transaksi pelanggan yang optimal. Temuan ini mengindikasikan adanya peluang peningkatan kualitas layanan pada proses transaksi.
