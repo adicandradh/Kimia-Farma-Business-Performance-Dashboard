@@ -11,7 +11,6 @@ Fokus utama dari project ini adalah mengolah data transaksi, produk, dan cabang 
 - Mengidentifikasi provinsi dengan kontribusi Net Sales, Net Profit, dan Total Transactions tertinggi
 - Mengevaluasi distribusi transaksi berdasarkan jenis cabang
 - Mengidentifikasi cabang dengan Branch Rating tinggi namun Transaction Rating relatif rendah
-- Menyediakan dashboard interaktif yang dapat dieksplorasi berdasarkan periode dan wilayah
 ## ⚙️ Data Processing
 - Data integration dari beberapa tabel menggunakan Google BigQuery
 - Data cleaning untuk memastikan konsistensi dan kualitas data
