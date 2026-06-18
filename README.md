@@ -1,4 +1,4 @@
-# Kimia Farma Business Performance Dashboard (Google Looker Studio)
+# Kimia Farma Business Performance Dashboard
 ## 📌 Project Type
 Final Project Big Data Analytics Virtual Internship Program – Kimia Farma x Rakamin Academy
 ## 📊 Overview
